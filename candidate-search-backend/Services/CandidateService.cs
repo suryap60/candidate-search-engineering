@@ -59,8 +59,10 @@ public class CandidateService : ICandidateService
 
         if (!string.IsNullOrWhiteSpace(request.Location))
         {
+            var location = request.Location.Trim().ToLowerInvariant();
+
             query = query.Where(
-                x => x.Location == request.Location
+                x => x.Location.ToLower() == location
             );
         }
 

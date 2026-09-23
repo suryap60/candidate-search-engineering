@@ -106,7 +106,12 @@ export default function SearchFilters({
               placeholder="e.g. Kochi, Bangalore"
               className="form-input"
               value={filters.location ?? ""}
-              onChange={(e) => onFilterChange("location", e.target.value || undefined)}
+              onChange={(e) =>
+                onFilterChange(
+                  "location",
+                  e.target.value ? e.target.value.toLowerCase() : undefined
+                )
+              }
             />
           </div>
 
