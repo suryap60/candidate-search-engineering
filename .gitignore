@@ -1,0 +1,36 @@
+# .NET / ASP.NET Core
+
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# ASP.NET local configuration
+**/appsettings.Development.json
+
+# Node / React / Vite
+
+**/node_modules/
+**/dist/
+**/.vite/
+
+# Environment files
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+
+# Allow example environment files
+!**/.env.example
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
