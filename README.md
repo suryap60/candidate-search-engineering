@@ -693,9 +693,6 @@ These contain placeholders only and can be copied for local setup.
 
 Approximately:
 
-```text
-[REPLACE WITH YOUR ACTUAL TIME SPENT]
-```
 
 The assessment time window was 24 hours. The value above should represent the actual development time spent rather than the allowed assessment duration.
 
